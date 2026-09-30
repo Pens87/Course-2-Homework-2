@@ -10,6 +10,8 @@ header {
 
 nav {
   background-color:#bbdbb7;
+  display: inline-block;
+  width: 80%;
 }
 
 main {
@@ -19,9 +21,28 @@ main {
 }
 
 footer {
-  background-color: #b4d7db;
+  background-color: #dbc6b4;
   padding: 5px;
 }
+
+nav img {
+  width: 10%;  
+}
+
+.grid {
+  display:grid;
+  grid-template-columns: 40% 40%;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+
+/*
 
 li {
   display:inline-block;
@@ -29,6 +50,8 @@ li {
   line-height:50px;
   text-align: center;
  }
+
+ */
 
 h1 {
   font-family:'Comic Sans MS';
