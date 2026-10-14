@@ -26,12 +26,17 @@ footer {
 }
 
 nav img {
-  width: 10%;  
+  width: 10%;
+  float:right;
+  
 }
 
 .grid {
   display:grid;
   grid-template-columns: 40% 40%;
+  justify-content:space-evenly;
+  align-items:center;
+  row-gap: 20px;
 }
 
 .grid img {
@@ -40,6 +45,25 @@ nav img {
 
 .flex {
   display: flex;
+  flex-wrap:wrap;
+  justify-content: space-evenly;
+}
+
+nav ul
+{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+nav li
+{
+  list-style-type: none;
+}
+
+.current
+{
+  color:#002903;
+  font-style:oblique;
 }
 
 /*
